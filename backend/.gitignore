@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Docker
+docker-data/
+
+# Byte-compiled files
+*.pyo
+
+# Virtual environments
+.env/
+venv/
+.venv/
+
+# Alembic
+app/db/migrations/versions/
+
+# IDE / Editor
+.vscode/
+.idea/
