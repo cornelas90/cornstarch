@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import Link from "next/link";
+import BlinkingCursor from "@/components/cursor";
 
 export default function WritingPage() {
     const postsDir = path.join(process.cwd(), "src/content/writing");
@@ -22,9 +23,10 @@ export default function WritingPage() {
     posts.sort((a, b) => (b.date || "").localeCompare(a.date || ""));
 
     return (
-        <main className="font-mono min-h-screen flex flex-col items-center sm:items-start p-6 gap-12">
-            <section className="max-w-3xl mx-auto px-6 py-12">
-                <h1 className="text-3xl font-semibold mb-2">Writing</h1>
+        <main className="max-w-3xl mx-auto px-6 py-12">
+            <section className="max-w-full w-full px-6 py-12">
+                <h1 className="text-3xl font-semibold mb-2">
+                    ~ / feeling / writing {' >'}<BlinkingCursor /></h1>
                 <ul>
                     {posts.map((post) => (
                         <li key={post.slug} className="mb-2">

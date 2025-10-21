@@ -12,7 +12,7 @@ export default function Header() {
                     CORNSTARCH.
                 </Link>
                 <span className="text-sm sm:text-base text-gray-400">
-                    / A Portfolio for <GlitchText text="Christian D. Ornelas" />
+                    / A Portfolio for <GlitchText text="Christian D. Ornelas" /> /
                 </span>
             </div>
 

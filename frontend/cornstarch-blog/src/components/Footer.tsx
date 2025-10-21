@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import BlinkingCursor from "./cursor";
 
 export default function Footer() {
   return (
@@ -8,26 +9,10 @@ export default function Footer() {
       <div className="flex flex-col items-center gap-2">
         <p className="footer-cursor">CORNSTARCH. :: The Plot Thickener</p>
         <p className="text-neutral-600">
-          © {new Date().getFullYear()} Christian D. Ornelas
+          © {new Date().getFullYear()} Christian D. Ornelas<BlinkingCursor />
         </p>
       </div>
-      <style jsx>{`
-        .footer-cursor::after {
-          content: "_";
-          display: inline-block;
-          margin-left: 2px;
-          animation: blink 1.1s steps(1, end) infinite;
-        }
 
-        @keyframes blink {
-          0%, 50%, 100% {
-            opacity: 1;
-          }
-          25%, 75% {
-            opacity: 0;
-          }
-        }
-      `}</style>
     </footer>
   );
 }
