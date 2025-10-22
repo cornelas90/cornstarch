@@ -23,8 +23,8 @@ export default function WritingPage() {
     posts.sort((a, b) => (b.date || "").localeCompare(a.date || ""));
 
     return (
-        <main className="max-w-3xl mx-auto px-6 py-12">
-            <section className="max-w-full w-full px-6 py-12">
+        <main className="max-w-3xl mx-auto px-6 py-4">
+            <section className="max-w-full w-full px-6 ">
                 <h1 className="text-3xl font-semibold mb-2">
                     ~ / feeling / writing {' >'}<BlinkingCursor /></h1>
                 <ul>

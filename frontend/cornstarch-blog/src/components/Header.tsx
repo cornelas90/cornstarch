@@ -5,9 +5,9 @@ import GlitchText from "./GlitchText";
 
 export default function Header() {
     return (
-        <header className="flex justify-between items-center py-6 px-8 text-lg tracking-wider font-mono">
+        <header className="flex flex-wrap justify-between items-center px-8 py-4 text-lg tracking-wider font-mono">
             {/* Logo + subtitle */}
-            <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
+            <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-4">
                 <Link href="/" className="hover:opacity-70 text-xl sm:text-2xl font-bold">
                     CORNSTARCH.
                 </Link>
@@ -16,7 +16,6 @@ export default function Header() {
                 </span>
             </div>
 
-            {/* Navigation */}
             <Nav />
         </header>
     );

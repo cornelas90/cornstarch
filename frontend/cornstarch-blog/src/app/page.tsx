@@ -1,4 +1,3 @@
-import GlitchText from "@/components/GlitchText";
 import AberrationImage from "@/components/AbberationImage";
 export default function Home() {
   return (

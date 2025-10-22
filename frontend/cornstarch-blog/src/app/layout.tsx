@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         className={`${inter.variable} ${JetBrainsMono.variable} antialiased min-h-screen flex flex-col`}
       >
         <Header />
-        <main className="flex-grow font-mono flex flex-col items-center sm:items-start p-6 gap-12 max-w-full mx-auto w-full">
+        <main className="prose prose-invert flex-grow font-mono flex flex-col items-center sm:items-start p-6 gap-12 max-w-full mx-auto w-full">
           {children}
         </main>
         <Footer />
