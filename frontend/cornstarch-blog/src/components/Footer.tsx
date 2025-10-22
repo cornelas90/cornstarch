@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="flex flex-col items-center gap-2">
         <p className="footer-cursor">CORNSTARCH. :: The Plot Thickener</p>
         <p className="text-neutral-600">
-          © {new Date().getFullYear()} - ∞ Christian D. Ornelas
+          © 1994-infinity
         </p>
       </div>
 
