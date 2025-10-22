@@ -1,0 +1,1 @@
+Chaotic systems are extremely sensitive to initial conditions. A system with an infinitesimally small difference in starting position will become vastly different over time.  

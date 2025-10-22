@@ -1,0 +1,1 @@
+Durham has a few stretches of street lights have have turned purple because of a manufacturing error. It’s a brief glimpse into the cyberpunk future we were promised, before it is unveiled that the lights were purely from either incompetence or cost cutting. How fitting. 

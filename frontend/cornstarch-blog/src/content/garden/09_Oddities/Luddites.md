@@ -1,0 +1,1 @@
+Skilled weavers who fought against industrialization because it was honing their livelihoods and communities 

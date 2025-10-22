@@ -1,0 +1,3 @@
+Feminine counterpart to [[Machismo]] and form of [[Internalized Sexism|Internalized Misogyny]].
+#### Definition 
+Latin American idealism of femininity based on a sort of [[Divine Femininity]] based on the devotion of Mary of Guadalupe. This is a natural contrast to machismo as it holds characteristics convenient to machismo like sexual purity, stronger spirtuality compared to men, and upholds self-sacrifice and passivity. 

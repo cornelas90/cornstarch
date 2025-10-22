@@ -1,0 +1,19 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      not:
+        - file.hasTag("Poetry")
+        - file.size > 800
+    order:
+      - file.name
+      - file.size
+      - tags
+      - file.mtime
+    sort:
+      - property: file.size
+        direction: DESC
+    rowHeight: medium
+    columnSize:
+      file.name: 247
+      note.tags: 265
