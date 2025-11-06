@@ -2,9 +2,10 @@ import os
 import requests
 
 API_KEY = os.getenv("LASTFM_API_KEY")
+USER_AGENT=os.getenv("LASTFM_User")
 BASE_URL = "http://ws.audioscrobbler.com/2.0/"
 HEADERS = {
-    "User-Agent": "TrapDemarco"
+    "User-Agent": USER_AGENT
 }
 def call_lastfm(params: dict):
     params = params.copy()
