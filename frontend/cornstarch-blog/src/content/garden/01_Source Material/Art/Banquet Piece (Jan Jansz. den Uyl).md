@@ -14,7 +14,7 @@ Note Updated: 2025-10-08
 ---
 # Banquet Piece Overview
 ---
-![[Banquet Piece by Jan Jansz. den Uyl.png]]
+![[Banquet Piece (Jan Jansz. den Uyl).png]]
 **Title:** Banquet Piece
 **Artist:** Jan Jansz. den Uyl
 **Medium:** Oil on Cradled Panel

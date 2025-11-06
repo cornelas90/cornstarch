@@ -13,7 +13,7 @@ aliases:
 cssclasses:
   - book-notes
 Note Created: 2025-10-15
-Note Updated: 2025-10-21
+Note Updated: 2025-10-22
 ---
 # Dracula Overview
 ---

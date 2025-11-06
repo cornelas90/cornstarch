@@ -16,7 +16,7 @@ Note Updated: 2025-08-26
 # Boy Staring at an Apparition Overview
 
 ---
-![[Boy Staring at an Apparition by Francisco Goya.jpg]]
+![[Boy Staring at an Apparition (Francisco Goya).jpg]]
 
 **Title:** Boy Staring at an Appartition
 **Artist:** [[Francisco Goya]]

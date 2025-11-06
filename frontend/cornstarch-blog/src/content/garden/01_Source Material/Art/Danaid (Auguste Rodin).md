@@ -10,11 +10,11 @@ aliases:
 cssclasses:
   - fine-arts-notes
 Note Created: 2025-10-08
-Note Updated: 2025-10-08
+Note Updated: 2025-10-23
 ---
 # Danaid Overview
 ---
-![[Danaid by Auguste Rodin.png]]
+![[Danaid (Auguste Rodin).png]]
 **Title:** Danaid
 **Artist:** [[Auguste Rodin]] 
 **Medium:** Marble, Bronze
@@ -24,6 +24,7 @@ Note Updated: 2025-10-08
 ## Description
 ---
 
+Sculpture inspired by the greek myth of [[Danaïdes]]
 
 
 ## Themes, Motifs, and Symbolism
