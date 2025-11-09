@@ -7,20 +7,23 @@ BASE_URL = "http://ws.audioscrobbler.com/2.0/"
 HEADERS = {
     "User-Agent": USER_AGENT
 }
-def call_lastfm(params: dict):
-    params = params.copy()
-    params.update({
+def get_album_info(artist: str, album: str, username: str = None) -> dict:
+    params = {
+        "method": "album.getInfo",
+        "artist": artist,
+        "album": album,
         "api_key": API_KEY,
         "format": "json"
-    })
-    resp = requests.get(BASE_URL, headers=HEADERS, params=params)
-    resp.raise_for_status()
-    return resp.json()
+    }
 
-# Example: get album info
-data = call_lastfm({
-    "method": "album.getInfo",
-    "artist": "Radiohead",
-    "album": "OK Computer"
-})
-print(data)
+    try:
+        response = requests.get(BASE_URL, headers=HEADERS, params=params)
+        response.raise_for_status()
+        return response.json()
+    except requests.HTTPError as e:
+        print(f"HTTP error: {e} - {response.text}")
+        return {}
+    except requests.RequestException as e:
+        print(f"Request failed: {e}")
+        return {}
+

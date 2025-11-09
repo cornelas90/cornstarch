@@ -3,3 +3,7 @@ uvicorn[standard]
 sqlalchemy
 pandas
 requests
+discogs_client
+python3-discogs-client 
+ipykernel
+python-dotenv
