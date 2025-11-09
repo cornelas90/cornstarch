@@ -1,1 +1,1 @@
-Hello World
+This is a WIP with the end goal of designing my own personal portfolio. Creative writing, mediocre front-end exploration, hobbyist backend development, and schema tinkering with TMDB, Discog, Last.FM, and Spotify API, all in good time! 
